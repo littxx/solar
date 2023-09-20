@@ -75,16 +75,13 @@
             animation: orbit 26.5s linear infinite;
         }
 
-       
         .lua {
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 8em;
-    height: 8em;
-    animation: orbit 2.7s linear infinite;
-}
-
+            top: 0;
+            right: 0;
+            width: 8em;
+            height: 8em;
+            animation: orbit 2.7s linear infinite;
+        }
 
         .terra::before,
         .lua::before {
@@ -99,11 +96,11 @@
             right: 2.8em;
             width: 3em;
             height: 3em;
-            background-color: aqua;
+            background-color: rgba(100, 50, 250, 1);
         }
 
         .lua::before {
-            top: 0.8;
+            top: 8px;
             right: 0.2em;
             height: 1.2em;
             width: 1.2em;
